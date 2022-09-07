@@ -2,9 +2,9 @@
 # ------------------------------------------------------------------------------
 # DJANGO_READ_DOT_ENV_FILE=True
 DJANGO_SETTINGS_MODULE=config.settings.production
-DJANGO_SECRET_KEY=gLuUvlM3tD1mqcZeR3KOmPplmM0kEpZcMbuHEghCyB7KGXzyXez5rLwQYW35sTOf
-DJANGO_ADMIN_URL=i91KKyaoP7lBDEj1qltj6vcNqy3bwtI1/
-DJANGO_ALLOWED_HOSTS=.sm-democracy-v1.herokuapp.com
+# DJANGO_SECRET_KEY=gLuUvlM3tD1mqcZeR3KOmPplmM0kEpZcMbuHEghCyB7KGXzyXez5rLwQYW35sTOf # Provide in deployment env
+# DJANGO_ADMIN_URL=i91KKyaoP7lBDEj1qltj6vcNqy3bwtI1/
+# DJANGO_ALLOWED_HOSTS=.sm-democracy-v1.herokuapp.com
 
 # Security
 # ------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ CORS_ALLOWED_ORIGINS=https://sm-democracy-v1.herokuapp.com,https://democracy.sma
 
 # Email
 # ------------------------------------------------------------------------------
-DJANGO_SERVER_EMAIL=
+DJANGO_SERVER_EMAIL=dev@ryanfleck.ca
 
 
 # django-allauth
@@ -28,7 +28,7 @@ WEB_CONCURRENCY=4
 
 # Sentry
 # ------------------------------------------------------------------------------
-SENTRY_DSN=
+# SENTRY_DSN=
 
 
 # Redis
